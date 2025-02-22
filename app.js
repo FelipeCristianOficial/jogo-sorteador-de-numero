@@ -38,7 +38,7 @@ function verificarChute() {
         if(chute > numeroSecreto){
 
             exibirTextoNaTela('h1', 'Errou!')
-            exibirTextoNaTela('p', 'O numéro secreto é menor.');
+            exibirTextoNaTela('p', 'O número secreto é menor.');
 
         } else if(chute < numeroSecreto){
 
